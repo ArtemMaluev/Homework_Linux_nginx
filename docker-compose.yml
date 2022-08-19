@@ -1,0 +1,8 @@
+version: '1.0'
+services:
+  app:
+    container_name: dockerapp_compose
+    build: ./
+    image: 'dockerapp'
+    ports:
+      - '8080:8080'
